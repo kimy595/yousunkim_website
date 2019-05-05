@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #ffb53c;
+  --secondary-color: #FFFFFF;
+  --tertiary-color: #FB5332;
+  --title-font: "Slabo 27px", serif;
+  --copy-font: "Slabo 27px", serif;
+}
+
+body {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 10px;
+}
+
+.button {
+  display: inline-block;
+  position: absolute;
+  transform: scale(0.5);
+  top: 35%;
+  cursor: pointer;
+}
+.left{
+  position: relative;
+  }
+
+  img#gallery {
+    width:50%;
+      height: auto;
+      
+  }
+
+  #current_number{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/*# sourceMappingURL=style.css.map */

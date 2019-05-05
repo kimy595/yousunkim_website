@@ -1,0 +1,26 @@
+.gallery {
+	
+	//gallery CSS goes here
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 700px;
+	
+	&_item {
+		width: 100%;
+	}
+
+	&_link {
+		display: block;
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+  
