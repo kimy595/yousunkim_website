@@ -1,13 +1,19 @@
 .gallery {
 
+	&_container{
+		width: 100%;
+		float: right;
+		margin: 0px auto;
+		padding: 20px;
+		background-color: aqua;
+	}
+
 	&__item {
-		display: block;
-		float: left;
-		margin-right: 0;
-		width: calc(25% - 10px);
-		margin-bottom: 10px;
-		padding: 0 5px;
-		cursor: pointer;
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 700px;
 	}
 
 	&__image {

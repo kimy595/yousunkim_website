@@ -9,3 +9,13 @@ body {
     display: flex;
     flex-wrap: nowrap;
 }
+
+.buttons_container{
+	width: 150px;
+    float: left;
+    margin: 0px auto;
+    flex-grow: 0;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+    flex-shrink: 0;
+}

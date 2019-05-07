@@ -1,5 +1,5 @@
-var buttonLeft = document.querySelector(".button.left");
-var buttonRight = document.querySelector(".button.right");
+var buttonLeft = document.querySelector(".button_left");
+var buttonRight = document.querySelector(".button_right");
 var currentNumber = document.querySelector("#current_number");
 
 var number = 1;
