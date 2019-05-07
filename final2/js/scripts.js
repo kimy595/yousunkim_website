@@ -7,7 +7,7 @@ updateNumber();
 
 buttonLeft.addEventListener("click", function() {
     if (number == 1) {
-        number = 42;
+        number = 41;
     } else {
         number -= 1;
     }
@@ -16,7 +16,7 @@ buttonLeft.addEventListener("click", function() {
 });
 
 buttonRight.addEventListener("click", function() {
-    if (number == 42) {
+    if (number == 41) {
         number = 1;
     } else {
         number += 1;
@@ -26,6 +26,6 @@ buttonRight.addEventListener("click", function() {
 });
 
 function updateNumber() {
-    currentNumber.innerHTML = number + "/42";
+    currentNumber.innerHTML = number + "/41";
     gallery.src = "images/" + number + ".jpg";
 };
