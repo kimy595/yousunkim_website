@@ -1,3 +1,71 @@
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ vertical-align: baseline;
+ box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+ }
+ 
+ .container {
+  margin: 0 auto;
+  max-width: 70em;
+ }
+ 
+ .gallery {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10em 0;
+ }
+ 
+ .gallery_item {
+  width: 32%;
+  margin-bottom: 0.6em;
+ }
+ 
+ .gallery_link {
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+ }
+ 
+ .thumbnail {
+  position: absolute;
+  top:0;right:0;bottom:0;left:0;
+  transition: all .3s;
+ }
+ 
+ button {
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: normal;
+  display: inline-block;
+  line-height: normal;
+  padding: 1rem 2.75rem;
+  height: auto;
+  border: 1px solid;
+  vertical-align: middle;
+  color: #3D4031;
+  transform: translate(0,90px);
+}
+
+button:hover {
+background-color: #3D4031;
+color: white;
+}
+
+button:focus {
+background-color: #3D4031;
+color: white;
+outline: 0;
+}
 .name{
     font-size: 200px;
     background-color: pink;
