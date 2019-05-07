@@ -5,11 +5,19 @@
   top: 35%;
   cursor: pointer;
 
+
+  &_div{
+    text-align: center;
+    position: relative;
+    width: 50%;
+    margin: auto;
+
+  }
     &_left{
        
 		
   margin-right: 0;
-  width: 10%;
+  width: 14%;
   margin-bottom: 10px;
   padding: 0 5px;
   cursor: pointer;
@@ -18,10 +26,10 @@
     &_right{
    
   margin-right: 0;
-  width: 10%;
+  width: 14%;
   margin-bottom: 10px;
   padding: 0 5px;
-  right: 10%;
+ 
   cursor: pointer;
     }
 }
