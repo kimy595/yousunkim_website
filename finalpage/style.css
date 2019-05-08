@@ -9,7 +9,11 @@
 img {
   max-width: 100%;
  }
- 
+ h1{
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: lighter;
+ }
  .container {
   margin: 0 auto;
   max-width: 70em;
@@ -22,12 +26,30 @@ img {
   flex-wrap: wrap;
   margin: 10em 0;
  }
+
+ .gallery_item1:hover{
+  transform: scale(1.1); 
+ }
  
- .gallery_item {
+ .gallery_item1{
   width: 32%;
   margin-bottom: 0.6em;
  }
- 
+
+ .gallery_item2{
+  width: 32%;
+  margin-bottom: 0.6em;
+ }
+ .gallery_item2:hover{
+  transform: scale(1.1); 
+ }
+ .gallery_item3{
+  width: 28%;
+  margin-bottom: 0.6em;
+ }
+ .gallery_item3:hover{
+  transform: scale(1.1); 
+ }
  .gallery_link {
   text-decoration: none;
   display: flex;
@@ -68,7 +90,7 @@ outline: 0;
 }
 .name{
     font-size: 200px;
-    background-color: pink;
+    background-color: rgb(192, 253, 255);
     color: black;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
